@@ -1,0 +1,3 @@
+[submodule "BookEngine/vendors/spdlog/spdlog"]
+	path = BookEngine/vendors/spdlog/spdlog
+	url = https://github.com/gabime/spdlog

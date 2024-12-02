@@ -1,0 +1,32 @@
+[
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine",
+  "command": "C:\\MinGW\\bin\\g++.exe -DBOOK_ENABLE_LOG -DBOOK_EXPORT -DEngine_EXPORTS @CMakeFiles/Engine.dir/includes_CXX.rsp -g -std=gnu++17 -Winvalid-pch -x c++-header -include E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/CMakeFiles/Engine.dir/cmake_pch.hxx -o CMakeFiles\\Engine.dir\\cmake_pch.hxx.gch -c E:\\C++\\Engine\\BookEngine\\BookEngine\\Targets\\BookEngine\\CMakeFiles\\Engine.dir\\cmake_pch.hxx.cxx",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/CMakeFiles/Engine.dir/cmake_pch.hxx.cxx",
+  "output": "BookEngine/CMakeFiles/Engine.dir/cmake_pch.hxx.gch"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine",
+  "command": "C:\\MinGW\\bin\\g++.exe -DBOOK_ENABLE_LOG -DBOOK_EXPORT -DEngine_EXPORTS @CMakeFiles/Engine.dir/includes_CXX.rsp -g -std=gnu++17 -Winvalid-pch -include E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/CMakeFiles/Engine.dir/cmake_pch.hxx -o CMakeFiles\\Engine.dir\\src\\Book.cpp.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\src\\Book.cpp",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/src/Book.cpp",
+  "output": "BookEngine/CMakeFiles/Engine.dir/src/Book.cpp.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine",
+  "command": "C:\\MinGW\\bin\\g++.exe -DBOOK_ENABLE_LOG -DBOOK_EXPORT -DEngine_EXPORTS @CMakeFiles/Engine.dir/includes_CXX.rsp -g -std=gnu++17 -Winvalid-pch -include E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/CMakeFiles/Engine.dir/cmake_pch.hxx -o CMakeFiles\\Engine.dir\\src\\BookPch.cpp.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\src\\BookPch.cpp",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/src/BookPch.cpp",
+  "output": "BookEngine/CMakeFiles/Engine.dir/src/BookPch.cpp.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEditor",
+  "command": "C:\\MinGW\\bin\\g++.exe -DBOOK_ENABLE_LOG -DBOOK_EXPORT @CMakeFiles/Book.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Book.dir\\src\\Editor.cpp.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEditor\\src\\Editor.cpp",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEditor/src/Editor.cpp",
+  "output": "BookEditor/CMakeFiles/Book.dir/src/Editor.cpp.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookGame",
+  "command": "C:\\MinGW\\bin\\g++.exe -DBOOK_ENABLE_LOG -DBOOK_EXPORT @CMakeFiles/Game.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Game.dir\\src\\Game.cpp.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookGame\\src\\Game.cpp",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookGame/src/Game.cpp",
+  "output": "BookGame/CMakeFiles/Game.dir/src/Game.cpp.obj"
+}
+]
