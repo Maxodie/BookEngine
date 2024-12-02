@@ -1,3 +1,6 @@
 [submodule "BookEngine/vendors/spdlog/spdlog"]
 	path = BookEngine/vendors/spdlog/spdlog
 	url = https://github.com/gabime/spdlog
+[submodule "BookEngine/vendors/GLFW/include"]
+	path = BookEngine/vendors/GLFW/include
+	url = https://github.com/glfw/glfw

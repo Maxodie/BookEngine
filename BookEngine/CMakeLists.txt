@@ -8,6 +8,7 @@ file(GLOB_RECURSE headers1 ${CMAKE_CURRENT_SOURCE_DIR}/includes/*.hpp)
 
 # sub directories #####
 add_subdirectory(vendors/spdlog)
+add_subdirectory(vendors/GLFW)
 #######################
 
 add_library(${PROJECT_NAME} SHARED ${sources} ${sources1} ${headers} ${headers1})
@@ -24,4 +25,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC
 )
 
 # link libraries
-target_link_libraries(${PROJECT_NAME} LINK_PUBLIC ${TARGET_LOGGER})
+target_link_libraries(${PROJECT_NAME} LINK_PUBLIC
+    ${TARGET_LOGGER}
+    ${TARGET_WINDOW}
+)

@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.16 FATAL_ERROR)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(TARGET_LOGGER spdlog_header_only)
+set(TARGET_WINDOW glfw_window)
 
 # build output directories
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY $<0:>${CMAKE_BINARY_DIR}/bin)

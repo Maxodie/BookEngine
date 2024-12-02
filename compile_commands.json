@@ -18,14 +18,152 @@
   "output": "BookEngine/CMakeFiles/Engine.dir/src/BookPch.cpp.obj"
 },
 {
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\context.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\context.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/context.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/context.c.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\init.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\init.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/init.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/init.c.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\input.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\input.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/input.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/input.c.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\monitor.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\monitor.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/monitor.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/monitor.c.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\platform.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\platform.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/platform.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/platform.c.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\vulkan.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\vulkan.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/vulkan.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/vulkan.c.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\window.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\window.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/window.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/window.c.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\egl_context.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\egl_context.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/egl_context.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/egl_context.c.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\osmesa_context.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/osmesa_context.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_init.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\null_init.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/null_init.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/null_init.c.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_monitor.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\null_monitor.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/null_monitor.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/null_monitor.c.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_window.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\null_window.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/null_window.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/null_window.c.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_joystick.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\null_joystick.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/null_joystick.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/null_joystick.c.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_module.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\win32_module.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/win32_module.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/win32_module.c.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_time.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\win32_time.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/win32_time.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_thread.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\win32_thread.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/win32_thread.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_init.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\win32_init.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/win32_init.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\win32_joystick.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/win32_joystick.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\win32_monitor.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/win32_monitor.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_window.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\win32_window.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/win32_window.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/GLFW/include/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\wgl_context.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\GLFW\\include\\src\\wgl_context.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/GLFW/include/src/wgl_context.c",
+  "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+},
+{
   "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEditor",
-  "command": "C:\\MinGW\\bin\\g++.exe -DBOOK_ENABLE_LOG -DBOOK_EXPORT @CMakeFiles/Book.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Book.dir\\src\\Editor.cpp.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEditor\\src\\Editor.cpp",
+  "command": "C:\\MinGW\\bin\\g++.exe -DBOOK_ENABLE_LOG -DBOOK_EXPORT @CMakeFiles/Book.dir/includes_CXX.rsp -g -std=gnu++17 -Winvalid-pch -x c++-header -include E:/C++/Engine/BookEngine/BookEngine/Targets/BookEditor/CMakeFiles/Book.dir/cmake_pch.hxx -o CMakeFiles\\Book.dir\\cmake_pch.hxx.gch -c E:\\C++\\Engine\\BookEngine\\BookEngine\\Targets\\BookEditor\\CMakeFiles\\Book.dir\\cmake_pch.hxx.cxx",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEditor/CMakeFiles/Book.dir/cmake_pch.hxx.cxx",
+  "output": "BookEditor/CMakeFiles/Book.dir/cmake_pch.hxx.gch"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEditor",
+  "command": "C:\\MinGW\\bin\\g++.exe -DBOOK_ENABLE_LOG -DBOOK_EXPORT @CMakeFiles/Book.dir/includes_CXX.rsp -g -std=gnu++17 -Winvalid-pch -include E:/C++/Engine/BookEngine/BookEngine/Targets/BookEditor/CMakeFiles/Book.dir/cmake_pch.hxx -o CMakeFiles\\Book.dir\\src\\Editor.cpp.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEditor\\src\\Editor.cpp",
   "file": "E:/C++/Engine/BookEngine/BookEngine/BookEditor/src/Editor.cpp",
   "output": "BookEditor/CMakeFiles/Book.dir/src/Editor.cpp.obj"
 },
 {
   "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookGame",
-  "command": "C:\\MinGW\\bin\\g++.exe -DBOOK_ENABLE_LOG -DBOOK_EXPORT @CMakeFiles/Game.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Game.dir\\src\\Game.cpp.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookGame\\src\\Game.cpp",
+  "command": "C:\\MinGW\\bin\\g++.exe -DBOOK_ENABLE_LOG -DBOOK_EXPORT @CMakeFiles/Game.dir/includes_CXX.rsp -g -std=gnu++17 -Winvalid-pch -x c++-header -include E:/C++/Engine/BookEngine/BookEngine/Targets/BookGame/CMakeFiles/Game.dir/cmake_pch.hxx -o CMakeFiles\\Game.dir\\cmake_pch.hxx.gch -c E:\\C++\\Engine\\BookEngine\\BookEngine\\Targets\\BookGame\\CMakeFiles\\Game.dir\\cmake_pch.hxx.cxx",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookGame/CMakeFiles/Game.dir/cmake_pch.hxx.cxx",
+  "output": "BookGame/CMakeFiles/Game.dir/cmake_pch.hxx.gch"
+},
+{
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookGame",
+  "command": "C:\\MinGW\\bin\\g++.exe -DBOOK_ENABLE_LOG -DBOOK_EXPORT @CMakeFiles/Game.dir/includes_CXX.rsp -g -std=gnu++17 -Winvalid-pch -include E:/C++/Engine/BookEngine/BookEngine/Targets/BookGame/CMakeFiles/Game.dir/cmake_pch.hxx -o CMakeFiles\\Game.dir\\src\\Game.cpp.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookGame\\src\\Game.cpp",
   "file": "E:/C++/Engine/BookEngine/BookEngine/BookGame/src/Game.cpp",
   "output": "BookGame/CMakeFiles/Game.dir/src/Game.cpp.obj"
 }
