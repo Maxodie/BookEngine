@@ -18,10 +18,8 @@ namespace Book
 
         BOOK_INLINE void RunContext()
         {
-            while(true)
+            while(m_Context->Window->PollEvents())
             {
-                m_Context->Dispatcher.PollEvents();
-
                 for(auto& layer : m_Context->Layers)
                 {
                     layer->OnUpdate();

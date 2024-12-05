@@ -99,14 +99,14 @@ namespace Book
 #   define BOOK_CORE_INFO(...) Book::Logger::RefCore()->info(__VA_ARGS__)
 #   define BOOK_CORE_WARN(...) Book::Logger::RefCore()->warn(__VA_ARGS__)
 #   define BOOK_CORE_ERROR(...) Book::Logger::RefCore()->error(__VA_ARGS__)
-#   define BOOK_CORE_FATAL(...) Book::Logger::RefCore()->fatal(__VA_ARGS__)
+#   define BOOK_CORE_FATAL(...) Book::Logger::RefCore()->critical(__VA_ARGS__)
 
 #   define BOOK_CLIENT_TRACE(...) Book::Logger::RefClient()->trace(__VA_ARGS__)
 #   define BOOK_CLIENT_DEBUG(...) Book::Logger::RefClient()->debug(__VA_ARGS__)
 #   define BOOK_CLIENT_INFO(...) Book::Logger::RefClient()->info(__VA_ARGS__)
 #   define BOOK_CLIENT_WARN(...) Book::Logger::RefClient()->warn(__VA_ARGS__)
 #   define BOOK_CLIENT_ERROR(...) Book::Logger::RefClient()->error(__VA_ARGS__)
-#   define BOOK_CLIENT_FATAL(...) Book::Logger::RefClient()->fatal(__VA_ARGS__)
+#   define BOOK_CLIENT_FATAL(...) Book::Logger::RefClient()->critical(__VA_ARGS__)
 
 #else
 

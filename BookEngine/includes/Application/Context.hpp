@@ -1,5 +1,5 @@
 #pragma once
-#include "Common/Event.hpp"
+#include "Window/Window.hpp"
 
 namespace Book
 {
@@ -9,6 +9,11 @@ namespace Book
     // application context
     struct AppContext
     {
+        BOOK_INLINE AppContext()
+        {
+            Window = std::make_unique<AppWindow>(&Dispatcher, 1280, 720, "Empty Engine");
+        }
+
         BOOK_INLINE ~AppContext()
         {
             for(auto& layer : Layers)
@@ -18,6 +23,7 @@ namespace Book
         }
 
         std::vector<AppInterface*> Layers;
+        std::unique_ptr<AppWindow> Window;
         EventDispatcher Dispatcher;
     };
 }
