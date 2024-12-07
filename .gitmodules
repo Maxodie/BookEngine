@@ -4,3 +4,6 @@
 [submodule "BookEngine/vendors/GLFW/include"]
 	path = BookEngine/vendors/GLFW/include
 	url = https://github.com/glfw/glfw
+[submodule "BookEngine/vendors/glm/include"]
+	path = BookEngine/vendors/glm/include
+	url = https://github.com/g-truc/glm

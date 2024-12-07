@@ -144,6 +144,12 @@
   "output": "BookEngine/vendors/GLFW/include/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
 },
 {
+  "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEngine/vendors/Glad",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DBOOK_ENABLE_LOG  -g -o CMakeFiles\\glad_opengl.dir\\include\\src\\glad.c.obj -c E:\\C++\\Engine\\BookEngine\\BookEngine\\BookEngine\\vendors\\Glad\\include\\src\\glad.c",
+  "file": "E:/C++/Engine/BookEngine/BookEngine/BookEngine/vendors/Glad/include/src/glad.c",
+  "output": "BookEngine/vendors/Glad/CMakeFiles/glad_opengl.dir/include/src/glad.c.obj"
+},
+{
   "directory": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEditor",
   "command": "C:\\MinGW\\bin\\g++.exe -DBOOK_ENABLE_LOG -DBOOK_EXPORT @CMakeFiles/Book.dir/includes_CXX.rsp -g -std=gnu++17 -Winvalid-pch -x c++-header -include E:/C++/Engine/BookEngine/BookEngine/Targets/BookEditor/CMakeFiles/Book.dir/cmake_pch.hxx -o CMakeFiles\\Book.dir\\cmake_pch.hxx.gch -c E:\\C++\\Engine\\BookEngine\\BookEngine\\Targets\\BookEditor\\CMakeFiles\\Book.dir\\cmake_pch.hxx.cxx",
   "file": "E:/C++/Engine/BookEngine/BookEngine/Targets/BookEditor/CMakeFiles/Book.dir/cmake_pch.hxx.cxx",
