@@ -1,5 +1,5 @@
 # Book Engine
-This is an engine based on the book "3D Game Engine Development" by Franc Pouhela. The goal is to learn a new way of building a 3D game engine in cpp.
+This is an engine based on the book "3D Game Engine Development" by Franc Pouhela. The goal is to learn a new way of building a 3D game engine in cpp (I also want to learn cmake).
 
 ## How to run
 There are multiple bat files if you want to build your environment with vs, or with Makefile and compile_commands.json (for neovim in my case) :
