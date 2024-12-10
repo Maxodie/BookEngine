@@ -1,5 +1,6 @@
 #pragma once
 #include "Application/Context.hpp"
+#include "Auxiliaries/ECS.hpp"
 
 namespace Book
 {
@@ -38,7 +39,7 @@ namespace Book
                 return nullptr;
             }
 
-            Layer* layer = new Layer(std::forward<Args>(args)...);
+            Layer* layer { new Layer(std::forward<Args>(args)...) };
             m_Context->Layers.push_back(layer);
             layer->m_LayerID = TypeID<Layer>();
             layer->m_Context = m_Context;
@@ -92,6 +93,30 @@ namespace Book
         BOOK_INLINE void DetachCallback()
         {
             m_Context->Dispatcher.DetachCallback<Event>(m_LayerID);
+        }
+
+        template<typename Entt, typename... Args>
+        BOOK_INLINE Entt CreateEntt(Args... args)
+        {
+            BOOK_STATIC_ASSERT(std::is_base_of<Entity, Entt>::value);
+            return std::move(Entt(&m_Context->Scene, std::forward(args)...));
+        }
+
+        template<typename Entt>
+        BOOK_INLINE Entt ToEntt(EntityID entity)
+        {
+            BOOK_STATIC_ASSERT(std::is_base_of<Entity, Entt>::value);
+            return std::move(Entt(&m_Context->Scene, entity));
+        }
+
+        template<typename Entt, typename Comp, typename Task>
+        BOOK_INLINE void EnttView(Task&& task)
+        {
+            BOOK_STATIC_ASSERT(std::is_base_of<Entity, Entt>::value);
+            m_Context->Scene.view<Comp>().each([this, &task] (auto entity, auto& comp)
+            {
+                task(std::move(Entt(&m_Context->Scene, entity)), comp);
+            });
         }
 
     protected:

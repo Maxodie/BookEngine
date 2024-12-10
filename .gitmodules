@@ -7,3 +7,9 @@
 [submodule "BookEngine/vendors/glm/include"]
 	path = BookEngine/vendors/glm/include
 	url = https://github.com/g-truc/glm
+[submodule "BookEngine/vendors/entt/entt"]
+	path = BookEngine/vendors/entt/entt
+	url = https://github.com/skypjack/entt
+[submodule "BookEngine/vendors/assimp/include"]
+	path = BookEngine/vendors/assimp/include
+	url = https://github.com/assimp/assimp

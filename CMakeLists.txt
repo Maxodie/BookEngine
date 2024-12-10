@@ -5,6 +5,8 @@ set(TARGET_LOGGER spdlog_header_only)
 set(TARGET_WINDOW glfw_window)
 set(TARGET_RENDERER glad_opengl)
 set(TARGET_MATH glm_math)
+set(TARGET_ECS entt_ecs)
+set(TARGET_MODEL_LOADER assimp_model_loader)
 
 # build output directories
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY $<0:>${CMAKE_BINARY_DIR}/bin)
@@ -18,6 +20,7 @@ set(CMAKE_CONFIGURATION_TYPES Debug Release)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS ON)
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wa,-mbig-obj")
 project(BookEngine)
 
 message(STATUS "${CMAKE_BUILD_TYPE} build")

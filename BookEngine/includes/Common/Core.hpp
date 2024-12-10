@@ -1,6 +1,7 @@
 #pragma once
 #include <glm/glm.hpp>
 #include <glm/gtc/type_ptr.hpp>
+#define GLM_ENABLE_EXPERIMENTAL
 #include <glm/gtx/quaternion.hpp>
 #include <glm/gtx/matrix_decompose.hpp>
 #include <glm/ext/matrix_transform.hpp>
@@ -10,6 +11,7 @@
 #include <queue>
 #include <vector>
 #include <string>
+#include <string_view>
 #include <bitset>
 #include <memory>
 #include <sstream>

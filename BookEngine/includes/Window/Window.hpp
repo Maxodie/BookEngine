@@ -8,6 +8,7 @@ namespace Book
         BOOK_INLINE AppWindow(EventDispatcher* dispatcher, int32_t width, int32_t height,
                               const char* title) : m_Dispatcher(dispatcher)
         {
+            BOOK_CORE_INFO("GLFW window creation started ...");
             if(glfwInit() != GLFW_TRUE)
             {
                 BOOK_CORE_FATAL("glfwInit() failed!");
@@ -18,7 +19,7 @@ namespace Book
             glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
             glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 
-            auto display = glfwGetVideoMode(glfwGetPrimaryMonitor());
+            auto display { glfwGetVideoMode(glfwGetPrimaryMonitor()) };
             glfwWindowHint(GLFW_REFRESH_RATE, display->refreshRate);
             glfwWindowHint(GLFW_GREEN_BITS, display->greenBits);
             glfwWindowHint(GLFW_BLUE_BITS, display->blueBits);
@@ -54,6 +55,8 @@ namespace Book
 
             // buffer swap interval
             glfwSwapInterval(1);
+
+            BOOK_CORE_INFO("GLFW window successfully created");
         }
 
         BOOK_INLINE ~AppWindow()

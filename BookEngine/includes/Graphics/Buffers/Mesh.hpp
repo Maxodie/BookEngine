@@ -1,6 +1,5 @@
 #pragma once
 #include "Graphics/Buffers/Vertex.hpp"
-#include <cstddef>
 
 namespace Book
 {
@@ -8,6 +7,7 @@ namespace Book
     struct Mesh
     {
         BOOK_INLINE Mesh(const MeshData<Vertex>& data)
+            : m_NbrVertex(data.Vertices.size()), m_NbrIndex(data.Indices.size()) // number of vertices ans indices
         {
             if(data.Vertices.empty())
             {
@@ -15,9 +15,6 @@ namespace Book
                 return;
             }
 
-            // number of vertices ans indices
-            m_NbrVertex = data.Vertices.size();
-            m_NbrIndex = data.Indices.size();
 
             // generate vertex buffer arrzay
             glGenVertexArrays(1, &m_BufferID);
@@ -26,7 +23,7 @@ namespace Book
             glBindVertexArray(m_BufferID);
 
             // create vertex buffer
-            uint32_t VBO = 0;
+            uint32_t VBO {0};
             glGenBuffers(1, &VBO);
             glBindBuffer(GL_ARRAY_BUFFER, VBO);
             glBufferData(GL_ARRAY_BUFFER, m_NbrVertex * sizeof(Vertex),
@@ -35,7 +32,7 @@ namespace Book
             // create element buffer
             if(m_NbrIndex != 0)
             {
-                uint32_t EBO = 0;
+                uint32_t EBO {0};
                 glGenBuffers(1, &EBO);
                 glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
                 glBufferData(GL_ELEMENT_ARRAY_BUFFER, m_NbrIndex * sizeof(uint32_t),
@@ -45,18 +42,18 @@ namespace Book
 
             if(TypeID<Vertex>() == TypeID<ShadedVertex>())
             {
-                SetAttribute(0, 3, offsetof(ShadedVertex, Position));
-                SetAttribute(1, 3, offsetof(ShadedVertex, Normal));
-                SetAttribute(2, 2, offsetof(ShadedVertex, UVs));
+                SetAttribute(0, 3, reinterpret_cast<void*>(offsetof(ShadedVertex, Position)));
+                SetAttribute(1, 3, reinterpret_cast<void*>(offsetof(ShadedVertex, Normal)));
+                SetAttribute(2, 2, reinterpret_cast<void*>(offsetof(ShadedVertex, UVs)));
             }
             else if (TypeID<Vertex>() == TypeID<FlatVertex>())
             {
-                SetAttribute(0, 3, offsetof(FlatVertex, Position));
-                SetAttribute(1, 4, offsetof(FlatVertex, Color));
+                SetAttribute(0, 3, reinterpret_cast<void*>(offsetof(FlatVertex, Position)));
+                SetAttribute(1, 4, reinterpret_cast<void*>(offsetof(FlatVertex, Color)));
             }
             else if (TypeID<Vertex>() == TypeID<QuadVertex>())
             {
-                SetAttribute(0, 4, offsetof(QuadVertex, Data));
+                SetAttribute(0, 4, reinterpret_cast<void*>(offsetof(QuadVertex, Data)));
             }
             else
             {
@@ -93,9 +90,9 @@ namespace Book
         }
 
     private:
-        uint32_t m_NbrVertex = 0;
-        uint32_t m_NbrIndex = 0;
-        uint32_t m_BufferID = 0;
+        uint32_t m_NbrVertex {0};
+        uint32_t m_NbrIndex {0};
+        uint32_t m_BufferID {0};
     };
 
     using ShadedMesh = Mesh<ShadedVertex>;

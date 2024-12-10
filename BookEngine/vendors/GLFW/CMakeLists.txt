@@ -5,8 +5,6 @@ set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 add_subdirectory(include)
 add_library(${TARGET_WINDOW} INTERFACE)
 
-target_include_directories(${TARGET_WINDOW} INTERFACE
-    $<BUILD_INTERFACE:${CMAKE_CURRENT_LIST_DIR}/include/include>
-    $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>)
+find_package(OpenGL REQUIRED)
 
 target_link_libraries(${TARGET_WINDOW} INTERFACE glfw)
