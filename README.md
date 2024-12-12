@@ -24,4 +24,4 @@ mingw32-make -C %target%
 ```
 ## Some parts differ from the book
 I want the architecture of the book to remain very much the same. I've changed some parts to suit my writing conventions and environment preference.
-So I use git submodules instead of connan, neovim instead of vs or vsc, and I used Glad instead of Glew for OpenGL.
+So I use git submodules instead of connan, neovim instead of vs or vsc, and I used Glad instead of Glew for OpenGL. I also use clang precompiled header

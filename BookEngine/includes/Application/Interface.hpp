@@ -1,12 +1,8 @@
 #pragma once
-#include "Application/Context.hpp"
 #include "Auxiliaries/ECS.hpp"
 
 namespace Book
 {
-    // forward declaration
-    struct AppContext;
-
     struct AppInterface
     {
         BOOK_INLINE virtual ~AppInterface() = default;

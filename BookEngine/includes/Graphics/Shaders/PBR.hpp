@@ -1,6 +1,7 @@
 #pragma once
 #include "Graphics/Shaders/Shader.hpp"
 #include "Graphics/Utilities/Data.h"
+#include "Graphics/Models/Model.hpp"
 
 namespace Book
 {

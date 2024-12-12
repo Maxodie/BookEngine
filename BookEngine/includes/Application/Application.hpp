@@ -1,5 +1,4 @@
 #pragma once
-#include "Application/Interface.hpp"
 #include "Auxiliaries/ECS.hpp"
 
 namespace Book
@@ -31,10 +30,11 @@ namespace Book
             camera.Attach<TransformComponent>().Transform.Translate.z = 2.0f;
             camera.Attach<CameraComponent>();
 
-            // create quad entity
-            Entity quad = CreateEntt<Entity>();
-            quad.Attach<MeshComponent>().Mesh = CreateQuad3D();
-            quad.Attach<TransformComponent>();
+            // create cube
+            Model3D model = std::make_unique<Model>("Resources/Models/cube.fbx");
+            Entity cube = CreateEntt<Entity>();
+            cube.Attach<TransformComponent>().Transform.Rotation.y = 30.f;
+            cube.Attach<ModelComponent>().Model = model;
 
             while(m_Context->Window->PollEvents())
             {
@@ -49,10 +49,10 @@ namespace Book
                 });
 
                 // render models
-                EnttView<Entity, MeshComponent>([this] (auto entity, auto& comp)
+                EnttView<Entity, ModelComponent>([this] (auto entity, auto& comp)
                 {
                     auto& transform { entity.template Get<TransformComponent>().Transform };
-                    m_Context->Renderer->Draw(comp.Mesh, transform);
+                    m_Context->Renderer->Draw(comp.Model, transform);
                 });
 
                 m_Context->Renderer->EndFrame();

@@ -5,7 +5,6 @@
 
 namespace Book
 {
-    // forward declaration
     struct AppInterface;
 
     // application context
