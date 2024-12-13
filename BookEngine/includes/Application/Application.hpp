@@ -36,6 +36,12 @@ namespace Book
             cube.Attach<TransformComponent>().Transform.Rotation.y = 30.f;
             cube.Attach<ModelComponent>().Model = model;
 
+            Entity cube2 = CreateEntt<Entity>();
+            TransformComponent& tr = cube2.Attach<TransformComponent>();
+            tr.Transform.Rotation.y = 70.f;
+            tr.Transform.Translate.y = 1.f;
+            cube2.Attach<ModelComponent>().Model = model;
+
             while(m_Context->Window->PollEvents())
             {
                 // render new frame
