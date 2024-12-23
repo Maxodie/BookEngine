@@ -48,6 +48,15 @@ namespace Book
         BOOK_INLINE ModelComponent(const ModelComponent&) = default;
         BOOK_INLINE ModelComponent() = default;
         Model3D Model;
+        PbrMaterial Material;
+    };
+
+    // point light component
+    struct PointLightComponent
+    {
+        BOOK_INLINE PointLightComponent(const PointLightComponent&) = default;
+        BOOK_INLINE PointLightComponent() = default;
+        PointLight Light;
     };
 
     struct Entity

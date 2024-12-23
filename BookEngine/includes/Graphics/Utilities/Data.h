@@ -3,6 +3,22 @@
 
 namespace Book
 {
+    struct PbrMaterial
+    {
+        glm::vec3 Albedo { glm::vec3{0.3f, 0.8f, 0.8f} };
+        float Roughness { 0.5f };
+        float Metallic { 0.2f };
+    };
+
+    struct PointLight
+    {
+        BOOK_INLINE PointLight(const PointLight&) = default;
+        BOOK_INLINE PointLight() = default;
+
+        glm::vec3 Radiance = glm::vec3(1.0f);
+        float Intensity { 1.0f };
+    };
+
     // transform
     struct Transform3D
     {

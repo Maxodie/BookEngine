@@ -24,19 +24,24 @@ namespace Book
             BOOK_CORE_INFO("GraphicsRenderer successfully created");
         }
 
+        BOOK_INLINE void SetPointLight(PointLight& light, Transform3D& transform, uint32_t index)
+        {
+            m_PbrShader->SetPointLight(light, transform, index);
+        }
+
+        BOOK_INLINE void SetPointLightCount(int32_t count)
+        {
+            m_PbrShader->SetuPointLightCount(count);
+        }
+
         BOOK_INLINE void SetCamera(Camera3D& camera, Transform3D& transform)
         {
             m_PbrShader->SetCamera(camera, transform, m_Frame->Ratio());
         }
 
-        BOOK_INLINE void Draw(Mesh3D& mesh, Transform3D& transform)
+        BOOK_INLINE void Draw(Model3D& model, PbrMaterial& material, Transform3D& transform)
         {
-            m_PbrShader->Draw(mesh, transform);
-        }
-
-        BOOK_INLINE void Draw(Model3D& model, Transform3D& transform)
-        {
-            m_PbrShader->Draw(model, transform);
+            m_PbrShader->Draw(model, material, transform);
         }
 
         BOOK_INLINE void Resize(int32_t width, int32_t height)
